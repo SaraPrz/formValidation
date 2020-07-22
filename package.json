@@ -1,0 +1,19 @@
+{
+  "name": "works",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "uglify": "uglifyjs main.js --output main.min.js",
+    "scss": "node-sass --watch main.scss -o main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bulma": "^0.9.0",
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.14.1",
+    "uglify-js": "^3.10.0"
+  }
+}
